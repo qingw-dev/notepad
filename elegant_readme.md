@@ -22,15 +22,17 @@
 [中文版](./elegant_readme_zh.md) |
 [Quickstart](#️-quickstart) |
 [Architecture](#️-architecture-design-principles) |
-[Applications](#-applications)
+[Applications](#-applications) |
+[Contributing](#contributing) |
+[Appendix](#appendix-demo)
 
 </h4>
 
 ---
 **AWorld** is a next-generation framework for agent learning with three key characteristics: 
-1. an efficient agent construction methodology that enables meta-learning of system designs, including prompts, workflows, agent memory, tools, and more
-2. encapsulation of complex functional modules including communication protocols and state management
-3. runtime state management supporting distributed, high-concurrency execution of agent environments
+1. **Plug-and-Play:** Box up complex modules with bulletproof protocols and zero-drama state control.
+2. **Cloud-Native Velocity:** Train smarter agents that evolve their own brains—prompts, workflows, memory, and tools—on the fly.  
+3. **Self-Awareness**: Synthesize the agent's own knowledge and experience to achieve ultimate self-improvement.
 
 <br>
 
