@@ -19,7 +19,7 @@
 
 <h4 align="center">
 
-[中文版](./elegant_readme_zh.md) |
+[中文版](elegant_readme_zh.md) |
 [Quickstart](#️-quickstart) |
 [Architecture](#️-architecture-design-principles) |
 [Applications](#-applications)
@@ -254,21 +254,21 @@ It provides a comprehensive environment that supports a diverse array of applica
 This framework is engineered to be highly adaptable, enabling researchers and developers to explore and innovate across multiple domains, thereby advancing the capabilities and applications of multi-agent systems.
 
 ## Concepts & Framework
-![](./readme_assets/aworld-framework.png)
+![](readme_assets/aworld-framework.png)
 
 | Concepts | Description |
 | :-------------------------------------- | ------------ |
-| [`agent`](./aworld/core/agent/base.py)  | Define the foundational classes, descriptions, output parsing, and multi-agent collaboration (swarm) logic for defining, managing, and orchestrating agents in the AWorld system. |
-| [`runner`](./aworld/runners)            | Contains runner classes that manage the execution loop for agents in environments, handling episode rollouts and parallel training/evaluation workflows.   |
-| [`task`](./aworld/core/task.py)         | Define the base Task class that encapsulates environment objectives, necessary tools, and termination conditions for agent interactions.  |
-| [`swarm`](./aworld/core/agent/swarm.py) | Implement the SwarmAgent class managing multi-agent coordination and emergent group behaviors through decentralized policies. |
-| [`sandbox`](./aworld/sandbox)           | Provide a controlled runtime with configurable scenarios for rapid prototyping and validation of agent behaviors. |
-| [`tools`](./aworld/tools)               | Offer a flexible framework for defining, adapting, and executing tools for agent-environment interaction in the AWorld system. |
-| [`context`](./aworld/core/context)      | Feature a comprehensive context management system for AWorld agents, enabling complete state tracking, configuration management, prompt optimization, multi-task state handling, and dynamic prompt templating throughout the agent lifecycle.  |
-| [`memory`](./aworld/memory)             | Implement an extensible memory system for agents, supporting short-term and long-term memory, summarization, retrieval, embeddings, and integration.|
-| [`trace`](./aworld/trace)               | Feature an observable tracing framework for AWorld, enabling distributed tracing, context propagation, span management, and integration with popular frameworks and protocols to monitor and analyze agent, tool, and task execution.|
+| [`agent`](aworld/core/agent/base.py)  | Define the foundational classes, descriptions, output parsing, and multi-agent collaboration (swarm) logic for defining, managing, and orchestrating agents in the AWorld system. |
+| [`runner`](aworld/runners)            | Contains runner classes that manage the execution loop for agents in environments, handling episode rollouts and parallel training/evaluation workflows.   |
+| [`task`](aworld/core/task.py)         | Define the base Task class that encapsulates environment objectives, necessary tools, and termination conditions for agent interactions.  |
+| [`swarm`](aworld/core/agent/swarm.py) | Implement the SwarmAgent class managing multi-agent coordination and emergent group behaviors through decentralized policies. |
+| [`sandbox`](aworld/sandbox)           | Provide a controlled runtime with configurable scenarios for rapid prototyping and validation of agent behaviors. |
+| [`tools`](aworld/tools)               | Offer a flexible framework for defining, adapting, and executing tools for agent-environment interaction in the AWorld system. |
+| [`context`](aworld/core/context)      | Feature a comprehensive context management system for AWorld agents, enabling complete state tracking, configuration management, prompt optimization, multi-task state handling, and dynamic prompt templating throughout the agent lifecycle.  |
+| [`memory`](aworld/memory)             | Implement an extensible memory system for agents, supporting short-term and long-term memory, summarization, retrieval, embeddings, and integration.|
+| [`trace`](aworld/trace)               | Feature an observable tracing framework for AWorld, enabling distributed tracing, context propagation, span management, and integration with popular frameworks and protocols to monitor and analyze agent, tool, and task execution.|
 
-> 💡 Check the [examples](./examples/) directory to explore diverse AWorld applications.
+> 💡 Check the [examples](examples/) directory to explore diverse AWorld applications.
 
 ### Characteristics
 | <div style="width:200px;white-space:nowrap">1. Agent Construction</div> | <div style="width:200px;white-space:nowrap">2. Topology Orchestration</div> | 3. Environment |
@@ -282,7 +282,7 @@ This framework is engineered to be highly adaptable, enabling researchers and de
 <details>
 <summary style="font-size: 1.2em;font-weight: bold;"> 🌏 Click to View Tutorial Example</summary>
 
-Here is a forward illustration to collect BFCL forward trajectories: [`tutorial`](./examples/BFCL/README.md).
+Here is a forward illustration to collect BFCL forward trajectories: [`tutorial`](examples/BFCL/README.md).
 
 </details>
 
@@ -342,7 +342,7 @@ The following is a list of successful proposal (with open-source models, technic
 | --------------- | --------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
 | **Tool Use**    | Function call runtime construction [`tutorial`][funreason-model-url] | Competitive on BFCL benchmark  <br> ![Agent Framework](readme_assets/bfclv2_leaderboard.png) | ![Dataset][huggingface-dataset-image] <br> [![Model][huggingface-model-image]][funreason-model-url] <br> [![Paper][arxiv-image]][funreason-paper-url] <br> ![Blog][blog-image] <br> [![Code][github-code-image]][funreason-code-url] |
 | **Deep Search** | Search runtime to be released           | SOTA on HotpotQA benchmark  <br> ![Agent Framework](readme_assets/hotpotqa_benchmark.png)    | [![Dataset][huggingface-dataset-image]][deepsearch-dataset-url] <br> [![Model][huggingface-model-image]][deepsearch-model-url] <br> [![Paper][arxiv-image]][deepsearch-paper-url] <br> [![Code][github-code-image]][deepsearch-code-url]      |
-| **GAIA Agent** | Fully prepared playground and training pipeline | GAIA Agent Runtime Demo <br> ![GAIA Agent Runtime Demo](readme_assets/gaia_demo.gif) | Follow the instructions in [GAIA Runtime](./examples/gaia/README.md) |
+| **GAIA Agent** | Fully prepared playground and training pipeline | GAIA Agent Runtime Demo <br> ![GAIA Agent Runtime Demo](readme_assets/gaia_demo.gif) | Follow the instructions in [GAIA Runtime](examples/gaia/README.md) |
 
 <br>
 
