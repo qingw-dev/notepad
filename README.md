@@ -307,6 +307,7 @@ Here is a forward illustration to collect BFCL forward trajectories: [`tutorial`
 
 ![](readme_assets/agent_training2.jpg)
 
+> [!NOTE]
 > An illustration of training code that seamlessly integrates the RL learning framework (Swift, in this example) with AWorld as the environment is shown below. This integration enables scalable and efficient agent training through distributed environment execution. (To run high-concurrency rollouts, you need to deploy an online distributed environment. Please contact [chenyi.zcy@antgroup.com](mailto:chenyi.zcy@antgroup.com) if assistance is needed.)
 
 <details>
