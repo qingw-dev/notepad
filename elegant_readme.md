@@ -34,7 +34,7 @@
 
 <br>
 
-![](./readme_assets/aworld-overview.png)
+![](readme_assets/aworld-overview.png)
 
 
 > **Agentic Achievements Unboxed!**
