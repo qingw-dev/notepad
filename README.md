@@ -22,7 +22,9 @@
 [中文版](./elegant_readme_zh.md) |
 [Quickstart](#️-quickstart) |
 [Architecture](#️-architecture-design-principles) |
-[Applications](#-applications)
+[Applications](#-applications) |
+[Contributing](#contributing) |
+[Appendix](#appendix-demo)
 
 </h4>
 
