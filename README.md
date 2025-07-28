@@ -263,8 +263,6 @@ It provides a comprehensive environment that supports a diverse array of applica
 This framework is engineered to be highly adaptable, enabling researchers and developers to explore and innovate across multiple domains, thereby advancing the capabilities and applications of multi-agent systems.
 
 ## Concepts & Framework
-<!-- ![](./readme_assets/aworld-framework.png) -->
-
 | Concepts | Description |
 | :-------------------------------------- | ------------ |
 | [`agent`](./aworld/core/agent/base.py)  | Define the foundational classes, descriptions, output parsing, and multi-agent collaboration (swarm) logic for defining, managing, and orchestrating agents in the AWorld system. |
@@ -279,7 +277,15 @@ This framework is engineered to be highly adaptable, enabling researchers and de
 
 > 💡 Check the [examples](./examples/) directory to explore diverse AWorld applications.
 
-### Characteristics
+
+<details>
+<summary style="font-size: 1.2em;font-weight: bold;"> 🌏 Click to View Architecture Diagram </summary>
+
+![](./readme_assets/aworld-framework.png)
+
+</details>
+
+## Characteristics
 | <div style="width:200px;white-space:nowrap">1. Agent Construction</div> | <div style="width:200px;white-space:nowrap">2. Topology Orchestration</div> | 3. Environment |
 |:---------------------|:-------------------------|:----------------|
 | ✅ Various model providers <br> ✅ Integrated MCP services <br> ✅ Convient  customizations | ✅ Encapsulated agent runtime <br> ✅ Flexible MAS patterns | ✅ Runtime state management <br> ✅ Clear state tracing <br> ✅ Distributed & high-concurrency environments for training |
